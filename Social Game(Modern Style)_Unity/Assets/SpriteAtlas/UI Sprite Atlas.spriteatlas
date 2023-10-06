@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 41643f385516ee2459b0d2e7853d38e3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 959b0fc07cf3f7740b985f91280b5f66: 21300000
+    - 66d548313f8a2c94a9f9a31773913aac: 21300000
+    - a8e91c6178fd0b74587e614d87d30df7: 21300000
+    - 9e33bd61c4a74e24bb86dfa4f5f5e786: 21300000
+    - fd886a2271256864092d810ce0348d14: 21300000
+    - a5e48eb2c6691a24699363630f76101b: 21300000
+    - 66b223e2816e5244da890ca30d54d6b6: 21300000
+    - 394a124330355234b8e22b64f0540040: 21300000
+    - d43c472558b46da4f9a24450f31c8f47: 21300000
+    - 7b6ef7251ee8ef84898e327b928dcda1: 21300000
+    - 25187c95c352e1441a42b87ccb6c887c: 21300000
+    - 5defd756ae2d7e14c92b1bfa145e82b0: 21300000
+    - 7e123047123da394092233f1c1b6c17e: 21300000
+    - f10f36e84a076c0438e0db85e82fb640: 21300000
+    - 54bd9f9986bcc684c88e4cee8bc2dc3b: 21300000
+    - fcc85f1a7aff01242adc36e426618a55: 21300000
+    - 39b165db332c7a54ab12404ad1a4ceca: 21300000
+    - 9151c07cbe5bae24a8b73dfa3c5126cc: 21300000
+    - f7fae5aca5b7bb542baad19f7d2ec059: 21300000
+    - 417bb42db3fad7d41a3559194c518d07: 21300000
+    - e386792d455d4e94c80211a41fb150ab: 21300000
+    - c65a686d764892d47ba72d71b580f5c1: 21300000
+    - bf0ae3dedd77175468f4f46484d132fc: 21300000
+    - a15153cf77e1c404c9d53e09dc326811: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 959b0fc07cf3f7740b985f91280b5f66, type: 3}
+  - {fileID: 21300000, guid: 66d548313f8a2c94a9f9a31773913aac, type: 3}
+  - {fileID: 21300000, guid: a8e91c6178fd0b74587e614d87d30df7, type: 3}
+  - {fileID: 21300000, guid: 9e33bd61c4a74e24bb86dfa4f5f5e786, type: 3}
+  - {fileID: 21300000, guid: fd886a2271256864092d810ce0348d14, type: 3}
+  - {fileID: 21300000, guid: a5e48eb2c6691a24699363630f76101b, type: 3}
+  - {fileID: 21300000, guid: 66b223e2816e5244da890ca30d54d6b6, type: 3}
+  - {fileID: 21300000, guid: 394a124330355234b8e22b64f0540040, type: 3}
+  - {fileID: 21300000, guid: d43c472558b46da4f9a24450f31c8f47, type: 3}
+  - {fileID: 21300000, guid: 7b6ef7251ee8ef84898e327b928dcda1, type: 3}
+  - {fileID: 21300000, guid: 25187c95c352e1441a42b87ccb6c887c, type: 3}
+  - {fileID: 21300000, guid: 5defd756ae2d7e14c92b1bfa145e82b0, type: 3}
+  - {fileID: 21300000, guid: 7e123047123da394092233f1c1b6c17e, type: 3}
+  - {fileID: 21300000, guid: f10f36e84a076c0438e0db85e82fb640, type: 3}
+  - {fileID: 21300000, guid: 54bd9f9986bcc684c88e4cee8bc2dc3b, type: 3}
+  - {fileID: 21300000, guid: fcc85f1a7aff01242adc36e426618a55, type: 3}
+  - {fileID: 21300000, guid: 39b165db332c7a54ab12404ad1a4ceca, type: 3}
+  - {fileID: 21300000, guid: 9151c07cbe5bae24a8b73dfa3c5126cc, type: 3}
+  - {fileID: 21300000, guid: f7fae5aca5b7bb542baad19f7d2ec059, type: 3}
+  - {fileID: 21300000, guid: 417bb42db3fad7d41a3559194c518d07, type: 3}
+  - {fileID: 21300000, guid: e386792d455d4e94c80211a41fb150ab, type: 3}
+  - {fileID: 21300000, guid: c65a686d764892d47ba72d71b580f5c1, type: 3}
+  - {fileID: 21300000, guid: bf0ae3dedd77175468f4f46484d132fc, type: 3}
+  - {fileID: 21300000, guid: a15153cf77e1c404c9d53e09dc326811, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ChracterIcon_01
+  - Stamina Gauge
+  - GuildHouseIcon_01
+  - MenuIcon_02
+  - GachaIcon_01
+  - StoryIcon_01
+  - Gauge
+  - QuestIcon_02
+  - Experience Gauge
+  - SceneMoveUI02
+  - SceneMoveUI01
+  - MyPageIcon_02
+  - QuestIcon_01
+  - StoryIcon_02
+  - MyPageIcon_01
+  - MenuIcon_01
+  - Status
+  - GachaIcon_02
+  - TAP TO START
+  - sozai_image_150020
+  - SceneMoveUI03
+  - UI_Hidden_Button
+  - ChracterIcon_02
+  - GuildHouseIcon_02
+  m_RenderDataMap: {}
+  m_Tag: UI Sprite Atlas
+  m_IsVariant: 0
