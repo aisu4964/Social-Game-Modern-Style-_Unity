@@ -506,7 +506,7 @@ GameObject:
   - component: {fileID: 223947206}
   - component: {fileID: 223947205}
   m_Layer: 5
-  m_Name: GuildHouse BackGround
+  m_Name: Shop BackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -551,7 +551,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 83c00444387c0fe468ef14ee8542959f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: de6bb4e709b668e42b4b5333c003acb6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1169,7 +1169,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2090830768411172120, guid: 4ade52e1db9b7bd449eac12404be0ed5, type: 3}
       propertyPath: m_Name
-      value: GuildHouse Button
+      value: Shop Button
       objectReference: {fileID: 0}
     - target: {fileID: 3267079112863897844, guid: 4ade52e1db9b7bd449eac12404be0ed5, type: 3}
       propertyPath: transitionAnimator
@@ -1359,7 +1359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6195830352590649290, guid: b6d531e952cfc1643abc399af1463c0a, type: 3}
       propertyPath: m_Name
-      value: Quest Button
+      value: Story Button
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

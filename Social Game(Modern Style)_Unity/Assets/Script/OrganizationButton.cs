@@ -8,11 +8,11 @@ using System.Collections;
 using static System.Net.Mime.MediaTypeNames;
 using System.Diagnostics;
 
-public class StoryButton : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler
+public class OrganizationButton: MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler
 {
     #region//インスペクターで設定できる変数
     [Header("ボタンとして使用する画像")] public UnityEngine.UI.Image image;
-    [Header("画像の色を変えるシーン名")] public string ColorSceneName = "Story";
+    [Header("画像の色を変えるシーン名")] public string ColorSceneName = "Organization";
     [Header("フェードアウトに使用するアニメーション")] public Animator transitionAnimator;
     [Header("UIの様々な機能を制御するCanvasGroupコンポーネント")][SerializeField] private CanvasGroup _canvasGroup;
     #endregion
@@ -24,7 +24,7 @@ public class StoryButton : MonoBehaviour, IPointerClickHandler, IPointerDownHand
     #region//イベント関数
     void Awake() //最初に一度だけ実行
     {
-        onClickCallback = GoToQuest; //onClickCallbackにGoToMyPageメソッドを代入した
+        onClickCallback = GoToStory; //onClickCallbackにGoToMyPageメソッドを代入した
         SceneManager.sceneLoaded += OnSceneLoaded; //SceneManager.sceneLoadedにOnSceneLoadedメソッドを代入した
     }
 
@@ -37,7 +37,7 @@ public class StoryButton : MonoBehaviour, IPointerClickHandler, IPointerDownHand
     {
         if (image != null) //もしimageがnullでなければ実行
         {
-            image.DOColor(new Color(1, 1, 0.5f), 0); //image内の画像を0秒で色を変更
+            image.DOColor(new Color(0.75f, 1, 0.75f), 0); //image内の画像を0秒で色を変更
         }
     }
 
@@ -59,10 +59,10 @@ public class StoryButton : MonoBehaviour, IPointerClickHandler, IPointerDownHand
     #endregion
 
     #region//メソッド
-    public void GoToQuest() //Questのシーンに移行するためのメソッド
+    public void GoToStory() //Storyのシーンに移行するためのメソッド
     {
         _canvasGroup.interactable = false; //CanvasGroupコンポーネントのInteractableプロパティを無効にする(タッチ入力できなくなる)
-        StartCoroutine(LoadSceneWithTransition("Story")); //Questのシーンに移行するためのアニメーションとシーン移行を行うコルーチンを起動
+        StartCoroutine(LoadSceneWithTransition("Organization")); //Storyのシーンに移行するためのアニメーションとシーン移行を行うコルーチンを起動
     }
 
     IEnumerator LoadSceneWithTransition(string sceneName) //フェードアウトのアニメーションとシーン移行を行うコルーチン
@@ -85,7 +85,7 @@ public class StoryButton : MonoBehaviour, IPointerClickHandler, IPointerDownHand
     {
         if (image != null) //もしimageがnullではなかったら下記を実行する
         {
-            image.DOColor(new Color(1, 1, 0.5f), 0); //image変数内の画像の色を赤色に変える
+            image.DOColor(new Color(0.75f, 1, 0.75f), 0); //image変数内の画像の色を赤色に変える
         }
     }
     #endregion

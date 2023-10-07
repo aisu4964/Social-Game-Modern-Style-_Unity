@@ -6,7 +6,7 @@ using System.Collections;
 using static System.Net.Mime.MediaTypeNames;
 using System.Diagnostics;
 
-public class StoryIconJumpAnimation : MonoBehaviour
+public class OrganizationIconJumpAnimation : MonoBehaviour
 {
     #region//インスペクターで設定できる変数
     [Header("ジャンプする高さ")] public float jumpHeight = 0.5f;
@@ -14,7 +14,7 @@ public class StoryIconJumpAnimation : MonoBehaviour
     [Header("ジャンプしている時間")] public float jumpTime = 1f;
     [Header("ジャンプする間隔")] public float jumpInterval = 0.7f;
     [Header("シーンごとに差し替える画像")] public Sprite newSprite;
-    [Header("選択しているシーンの名前")] public string ExecutionSceneName = "Story";
+    [Header("選択しているシーンの名前")] public string ExecutionSceneName = "Organization";
     #endregion
 
     #region//プライベート変数
